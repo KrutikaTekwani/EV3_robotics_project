@@ -6,6 +6,12 @@ This project utilizes an EV3 Robot to perform writing or drawing actions. A pen 
 
 ## Getting Started
 
+## EV3 Installation Resources
+
+The project uses the EV3 Robot by Lego. If you're setting up your EV3 Robot for the first time, or if you're encountering issues with your EV3 Robot, the following resource might be helpful:
+
+- [Python EV3Dev Documentation](https://ev3dev-lang.readthedocs.io/projects/python-ev3dev/en/stable/)
+
 ### Prerequisites
 
 - EV3 Robot Set
@@ -31,7 +37,7 @@ The Python script `AI.py` operates the writing program. To create letters or wor
 Example: To write the word 'LIKE', 
 ```python
 my_string = 'LIKE'
-
+```
 ### Calculating Distance and Angles
 
 The program performs distance calculation and movement direction using Pythagoras theorem and Python’s `atan2(y,x)` function respectively. It keeps track of the robot's current heading and the heading it must adopt to move to the next node.
